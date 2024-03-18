@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>L5V1 Example</title>
+	</head>
+	<body>
+			<h1> call the calc() fucntion on console.log for calculator , areaCircle() for the circle method and areaRectanlge() for the rectangle method </h1>
+			<h1> Enter Number a , b and the opprator  eg , "add" , "sub" , "div" or "mult" 
+				PLEASE use ""
+			</h1>
+
+			
+
+		<script>
+
+			// const variable
+
+				const pi =22/7;
+				// This function will calculate the area of circle 
+				
+				function areaCircle(r){
+					
+
+					let area = pi * Math.pow(r,2);
+
+					console.log(area);
+
+
+				}
+
+
+			// calculator function
+			function calc(a,b , opp){
+					let result;
+
+					// add
+					if(opp =="add"){
+						result= a+b;
+					}
+
+					 // subtract
+					else if(opp =="sub"){
+						result= a-b;
+					}
+
+					// divide
+					else if(opp =="div"){
+						result= a/b;
+					}
+
+					// multiple 
+					else if(opp =="mult"){
+						result= a*b;
+					}
+
+
+					console.log(result);
+
+
+
+			}
+
+			// This function will calculate the area of a rectangle
+
+			function areaRectanlge(){
+
+				let length =20;
+				let width =15;
+
+				let area = length * width;
+
+				console.log(area);
+			}
+		
+			// question 
+			// a) A const has a scope Block scope which means any const variable is only accessible in the scope of the block of code  
+			// b) They were releaesed in 2015 with the ECMAScript 6
+
+
+
+
+
+
+		</script>	
+		
+</body>
+</html>
